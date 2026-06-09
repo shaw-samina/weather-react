@@ -1,0 +1,23 @@
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; /* Or match your dark theme background if needed */
+}
+
+.footer-link {
+  color: #a8b2d1; /* A softer blue/grey to match dark mode, or keep your preferred color */
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #64ffda; /* A nice accent color when hovered */
+  text-decoration: underline;
+}
